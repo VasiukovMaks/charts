@@ -1,0 +1,30 @@
+.container {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container > * {
+    max-width: 760px;
+    width: 100%;
+}
+
+.container_bar, .container_select  {
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 15px 15px 10px;
+}
+
+.container_select {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+h1 {
+    font-size: 1.2rem;
+}
